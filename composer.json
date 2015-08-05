@@ -1,0 +1,27 @@
+{
+  "name": "mazurva/yii2-menumodules",
+  "description": "Collector menu modules for applications Yii2",
+  "keywords": ["helpers", "menu modules", "yii2"],
+  "homepage": "https://github.com/mazurva/yii2-menumodules",
+  "type": "yii2-components",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vadim Mazur",
+      "email": "mazurva@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/mazurva/yii2-menumodules/issues",
+    "source": "https://github.com/mazurva/yii2-menumodules"
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "sibds\\helpers\\": ""
+    }
+  }
+}
