@@ -46,7 +46,7 @@ class MenuModules
     }
 
     private function findMenuFileInModule($moduleName){
-        $fileMenu = Yii::getAlias('@backend/modules/'.$moduleName.'/views/_menu.php');
+        $fileMenu = Yii::getAlias('@app/modules/'.$moduleName.'/views/_menu.php');
 
         if(file_exists($fileMenu))
             return require($fileMenu);
@@ -55,7 +55,7 @@ class MenuModules
     }
 
     private function findMenuFileInViewsPath($moduleName){
-        $fileMenu = Yii::getAlias('@backend/views/'.$moduleName.'/_menu.php');
+        $fileMenu = Yii::getAlias('@app/views/'.$moduleName.'/_menu.php');
 
         if(file_exists($fileMenu))
             return require($fileMenu);
